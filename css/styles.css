@@ -235,4 +235,23 @@ footer {
     .recipients p {
         font-size: 1em;
     }
-}
+}       /* Additional styles for the slideshow */
+.slideshow-container {
+            max-width: 800px;
+            margin: 50px auto;
+            position: relative;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+
+        .slideshow-container img {
+            width: 100%;
+            height: auto;
+            display: none;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .slideshow-container img.active {
+            display: block;
+        }

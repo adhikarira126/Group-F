@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Slideshow</title>
+    <link rel="stylesheet" href="/css/styles.css"> <!-- Your existing CSS -->
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Photo Slideshow</h1>
+      
+    </header>
+
+    <main>
+        <div class="slideshow-container">
+            <img src="/images/Photo.avif" class="active" alt="Photo 1">
+            <img src="/images/photo1.avif" alt="Photo 2">
+            <img src="/images/photo2.avif" alt="Photo 3">
+            <img src="/images/photo4.avif" alt="Photo 4">
+            <img src="/images/photo3.avif" alt="Photo 5">
+           
+            <img src="/images/photo6.avif" alt="Photo 2">
+            <img src="/images/photo8.avif" alt="Photo 3">
+            <img src="/images/photo9.avif" alt="Photo 4">
+            <img src="/images/photo5.avif" alt="Photo 5">
+        </div>
+    </main>
+</div>
+
+<script>
+    // JavaScript for slideshow
+    const slides = document.querySelectorAll('.slideshow-container img');
+    let currentIndex = 0;
+
+    function showNextSlide() {
+        slides[currentIndex].classList.remove('active');
+        currentIndex = (currentIndex + 1) % slides.length;
+        slides[currentIndex].classList.add('active');
+    }
+
+    setInterval(showNextSlide, 2000); // change every 2 seconds
+</script>
+
+</body>
+</html>
