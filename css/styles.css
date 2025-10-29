@@ -79,6 +79,42 @@ main {
     background: linear-gradient(to bottom, #ffffff 0%, #f9f9f9 100%);
 }
 
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: linear-gradient(135deg, #1a1a1a 0%, #293f29 50%, #1a1a1a 100%);
+}
+
+
+th.navigation {
+    display: inline-table;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+a.otherPage {
+    color:#d4af37;
+    text-decoration: none;
+}
+
+
+a.currentPage {
+    color: #f4e4a6;
+    text-decoration: none;
+}
+
+
+/* Home Page */
+
+
 /* Trophy Sections */
 .trophy-section {
     margin-bottom: 60px;
