@@ -124,11 +124,11 @@ a.currentPage {
     margin-bottom: 0;
 }
 
-#about-container {
+.about-container {
     display: flex;
 }
 
-div#about-container>img {
+div.about-container>img {
     margin-left: 10px;
 }
 
@@ -136,7 +136,8 @@ div#about-container>img {
 table.calendar {
     margin-bottom: 0px;
     padding: 10px;
-    width: 250px;
+    min-width: 250px;
+    max-height: 80px;
     background: white;
     border-radius: 12px;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
@@ -145,6 +146,15 @@ table.calendar {
 .calendar-container {
     display: flex;
     text-align: center;
+}
+
+div.calendar-container>div.calendar-information {
+    text-align: left;
+    margin-left: 30px;
+}
+
+div.calendar-information ul {
+    margin-left: 20px;
 }
 
 /* Trophy Sections */
