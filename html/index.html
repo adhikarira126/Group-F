@@ -4,7 +4,6 @@
     Description: This page exists as the home page of the Fond du Lac County 4-H Horse and Pony Project, connecting each other page.
 -->
 
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -14,37 +13,71 @@
         <title>Home</title>
     </head>
     <body>
-        <!-- Header -->
-        <header>
-            <!-- Heading 1 -->
-            <h1>Fond du Lac County 4-H Horse and Pony Project</h1>
-        </header>
+        <div class="container">
+            <!-- Header -->
+            <header>
+                <h1>Fond du Lac County 4-H Horse and Pony Project</h1>
+            </header>
 
+            <!-- Navigation Bar -->
+            <nav>
+                <table>
+                    <tr>
+                        <th class="navigation">
+                            <a class="currentPage" href="index.html" target="_self">Home</a>
+                        </th>
+                        <th class="navigation">
+                            <a class="otherPage" href="index.html" target="_self">Calendar</a>
+                        </th>
+                        <th class="navigation">
+                            <a class="otherPage" href="index.html" target="_self">Membership</a>
+                        </th>
+                        <th class="navigation">
+                            <a class="otherPage" href="photo.html" target="_self">Photos</a>
+                        </th>
+                        <th class="navigation">
+                            <a class="otherPage" href="index.html" target="_self">Forms</a>
+                        </th>
+                        <th class="navigation">
+                            <a class="otherPage" href="index.html" target="_self">Contact Us</a>
+                        </th>
+                    </tr>
+                </table>
+            </nav>
 
-        <!-- Navigation Bar -->
-        <nav>
-            <table>
-                <tr>
-                    <th class="navigation">
-                        <a class="currentPage" href="index.html" target="_self">Home</a>
-                    </th>
-                    <th class="navigation">
-                        <a class="otherPage" href="index.html" target="_self">Calendar</a>
-                    </th>
-                    <th class="navigation">
-                        <a class="otherPage" href="index.html" target="_self">Membership</a>
-                    </th>
-                    <th class="navigation">
-                        <a class="otherPage" href="photo.html" target="_self">Photos</a>
-                    </th>
-                    <th class="navigation">
-                        <a class="otherPage" href="index.html" target="_self">Forms</a>
-                    </th>
-                    <th class="navigation">
-                        <a class="otherPage" href="index.html" target="_self">Contact Us</a>
-                    </th>
-                </tr>
-            </table>
-        </nav>
+            <!-- Main Page Content -->
+            <main>
+                <section class="trophy-section">
+                    <h2>Welcome!</h2>
+
+                    <div id="about-container">
+                        <div class="trophy-content">
+                            <p>
+                                We are a 4-H club based in Fond du Lac, WI. Members of our club are able to grow their 
+                                horsemanship skills through many of our club activities throughout the year, including 
+                                parades, clinics, fairs, demonstrations, and educational activities. Club members are 
+                                also able to connect with other youth involved in 4-H.
+                            </p>
+                            <p>
+                                Along with many horse activities, we also have offered educational activities like 
+                                horse bowl/hippology (which is basically competitive horse trivia), horse judging 
+                                (which is where members learn how to place horses like a judge), and model horse 
+                                (which is making scale models of different horse disciplines).
+                            </p>
+                            <p>
+                                We hope to see you soon!
+                            </p>
+                        </div>
+                        
+                        <img src="/images/horse_art.avif" alt="A drawing of a horse">
+                    </div>
+                </section>
+            </main>
+
+            <!-- Copyright Information -->
+            <footer>
+                <p>© 2022 Fond du Lac County 4-H Horse and Pony Project.</p>
+            </footer>
+        </div>
     </body>
 </html>
