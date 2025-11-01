@@ -39,6 +39,7 @@ body {
 /* Header */
 header {
     background: linear-gradient(135deg, #d4af37 0%, #f4e4a6 50%, #d4af37 100%);
+    border: 2px solid #bdb07c;
     color: #333;
     text-align: center;
     padding: 50px 20px;
@@ -46,7 +47,18 @@ header {
     overflow: hidden;
 }
 
-/*header::before {
+div.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+div.header>img {
+    width: 5.0em;
+}
+
+header.trophies::before {
     content: '🏆';
     position: absolute;
     font-size: 150px;
@@ -54,29 +66,30 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}*/
+}
 
 header h1 {
-    font-size: 2.8em;
-    margin-bottom: 10px;
+    font-size: 2.0em;
+    /*margin-bottom: 10px;*/
+    padding-left: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     position: relative;
     z-index: 1;
     font-weight: bold;
 }
 
-header p {
+header h2 {
     font-size: 1.3em;
     opacity: 0.8;
     position: relative;
     z-index: 1;
-    font-style: italic;
 }
 
 /* Main Content */
 main {
     padding: 50px 40px;
     background: linear-gradient(to bottom, #ffffff 0%, #f9f9f9 100%);
+    border: 2px solid #dbdbdb;
 }
 
 /* Navigation Bar */
@@ -275,8 +288,10 @@ td.importantDate {
 
 /* Footer */
 footer {
-    background: linear-gradient(135deg, #17d33c 0%, #0ae220 100%);
-    color: white;
+    /*background: linear-gradient(135deg, #17d33c 0%, #0ae220 100%);*/
+    background: linear-gradient(135deg, #b9d0bd 0%, #a1cca1 100%);
+    border: 2px solid #8dc78d;
+    color: #4b400a;
     text-align: center;
     padding: 25px;
     font-size: 1em;
