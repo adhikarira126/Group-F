@@ -85,7 +85,8 @@ nav {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    background: linear-gradient(135deg, #b9d0bd 0%, #a1cca1 100%)
+    background: linear-gradient(135deg, #b9d0bd 0%, #a1cca1 100%);
+    border: 2px solid #8dc78d;
 }
 
 th.navigation {
