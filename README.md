@@ -23,7 +23,16 @@ Throughout the process, I collaborated with my teammates, meeting regularly in p
 
 
 # Lydia Schoening
+We created the repository in class, and a few days later met over Zoom to share different websites we had found. After deciding on the Fond du Lac County 4-H Horse and Pony Project website, we divided up the pages and began working individually. We worked on the project on and off over the course of a few weeks, meeting weekly to share ideas, discuss any issues we were facing, and collaborate on typography.
 
+I would work on my pages, set them aside, and return to them with a fresh set of eyes. I didn’t struggle with the HTML, but CSS isn’t my strong suit, so it took me longer than I had hoped because I frequently had to check my notes. It helped greatly to reference my teammates’ base CSS from the Trophies page, but matching the padding, margins, and colors took longer than expected. However, after this project, I feel more confident in writing and understanding CSS.
+
+I also completely forgot to use git pull, which led to a few merge conflicts. I used an LLM to help explain the error messages I was getting but managed to resolve most of the syntax issues on my own. Overall, I enjoyed problem-solving during this lab and believe my teammates and I collaborated effectively to complete it.
+
+Bugs:
+We encountered a few issues with images not displaying correctly. The images would appear on one person’s screen but show only alt text on another’s. I’m not sure why this happened, but it seems to happen intermittently. 
+
+Additionally, directly on the GitHub Repo, my commits show up as "Your Name," which isnt a bug necessarily but is strange
 
 # Joshua Waite
 Reflection:
