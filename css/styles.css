@@ -127,24 +127,6 @@ a.currentPage {
 }
 
 /* Home Page */
-.home-content {
-    background: linear-gradient(135deg, #fffef7 0%, #fff9e6 100%);
-    padding: 30px;
-    border-left: 6px solid #d4af37;
-    border-radius: 8px;
-    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
-}
-
-.home-content p {
-    margin-bottom: 18px;
-    text-align: justify;
-    font-size: 1.05em;
-}
-
-.home-content p:last-of-type {
-    margin-bottom: 0;
-}
-
 .about-container {
     display: flex;
 }
@@ -197,8 +179,8 @@ td.importantDate {
     background: #17d33d29;
 }
 
-/* Trophy Sections */
-.trophy-section {
+/* Main Sections */
+.main-section {
     margin-bottom: 60px;
     padding: 30px;
     background: white;
@@ -207,16 +189,16 @@ td.importantDate {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.trophy-section:hover {
+.main-section:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 35px rgba(0, 0, 0, 0.15);
 }
 
-.trophy-section:last-child {
+.main-section:last-child {
     margin-bottom: 0;
 }
 
-.trophy-section h2 {
+.main-section h2 {
     color: #8b6914;
     font-size: 2em;
     margin-bottom: 30px;
@@ -226,7 +208,7 @@ td.importantDate {
     position: relative;
 }
 
-.trophy-section h2::after {
+.main-section h2::after {
     content: '';
     position: absolute;
     bottom: -4px;
@@ -237,8 +219,8 @@ td.importantDate {
     background: linear-gradient(90deg, transparent, #11e187, transparent);
 }
 
-/* Trophy Content */
-.trophy-content {
+/* Main Content */
+.main-content {
     background: linear-gradient(135deg, #fffef7 0%, #fff9e6 100%);
     padding: 30px;
     border-left: 6px solid #d4af37;
@@ -246,13 +228,13 @@ td.importantDate {
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
-.trophy-content p {
+.main-content p {
     margin-bottom: 18px;
     text-align: justify;
     font-size: 1.05em;
 }
 
-.trophy-content p:last-of-type {
+.main-content p:last-of-type {
     margin-bottom: 0;
 }
 
@@ -375,6 +357,11 @@ footer {
     font-size: 1em;
 }
 
+footer a {
+    color: #4b400a;
+    text-decoration: underline;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     body {
@@ -397,20 +384,20 @@ footer {
         padding: 25px 20px;
     }
 
-    .trophy-section {
+    .main-section {
         padding: 20px;
         margin-bottom: 40px;
     }
 
-    .trophy-section h2 {
+    .main-section h2 {
         font-size: 1.5em;
     }
 
-    .trophy-content {
+    .main-content {
         padding: 20px;
     }
 
-    .trophy-content p {
+    .main-content p {
         text-align: left;
         font-size: 1em;
     }
