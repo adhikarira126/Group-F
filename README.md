@@ -15,6 +15,11 @@
         - Calendar
 
 # Rachin Adhikari
+For this project, I was responsible for creating and designing the Membership section, which was split into multiple pages, including Trophies and Constitution, as well as the Photos page. I focused on making these pages visually appealing and easy to navigate while keeping the design consistent with the rest of the site.
+
+To achieve this, I spent time learning and experimenting with CSS to improve the layout, color scheme, and responsiveness of the pages. I made sure that the design was clean and uniform so that each page would fit well with the others. The Trophies page design, in particular, became a base style that was later adapted for other parts of the website, helping to create a cohesive look across the project.
+
+Throughout the process, I collaborated with my teammates, meeting regularly in person and over Zoom to share progress and coordinate design elements. I also used GitHub for version control, resolving a few challenges related to image paths and commits not pushing correctly. Despite those small technical issues, the project went smoothly overall, and I am happy with how our website turned out.
 
 
 # Lydia Schoening
